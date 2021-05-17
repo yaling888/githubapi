@@ -1,20 +1,17 @@
-console.log('exec set_header_accept.js');
+//console.log('exec set_header_accept.js');
 
 function setHeaders() {
     
     let url = $request.url;
     let token = getUrlParam(url, '_t');
-    console.log('request url: ' + url);
     let headers = $request.headers;
     url = removeURLParameter(url, '_t');
   
-    console.log('set "Accept: application/vnd.github.v3.raw" in request header');
-
-    headers['Authorization'] = ' token ' + token;
     headers['Accept'] = 'application/vnd.github.v3.raw';
+    headers['Authorization'] = ' token ' + token;
+    headers['User-Agent'] = 'curl';
 
     $done({url, headers});
-    console.log('request url: ' + $request.url);
 }
 
 function getUrlParam(url, name) {
