@@ -17,7 +17,6 @@ function setHeaders() {
     console.log('request url: ' + $request.url);
 }
 
-
 function getUrlParam(url, name) {
     let reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
     let r = url.match(reg);
@@ -40,3 +39,5 @@ function removeURLParameter(url, parameter) {
     }
     return url;
 }
+
+setHeaders();
