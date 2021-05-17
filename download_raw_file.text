@@ -1,0 +1,1 @@
+githubapi = type=http-request,script-path=https://raw.githubusercontent.com/yaling888/githubapi/main/set_header_accept.js,pattern=^https://api\.github\.com/repos/.*,max-size=131072,timeout=10,debug=false,enable=true
