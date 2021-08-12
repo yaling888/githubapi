@@ -8,7 +8,7 @@ function setHeaders() {
     url = removeURLParameter(url, '_t');
   
     headers['Accept'] = 'application/vnd.github.v3.raw';
-    headers['Authorization'] = ' token ' + token;
+    headers['Authorization'] = ' token ghp_' + token;
     headers['User-Agent'] = 'curl';
 
     $done({url, headers});
