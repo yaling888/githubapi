@@ -1,3 +1,4 @@
+host-suffix, myqcloud.com, direct
 host-suffix, smtcdns.com, direct
 host-suffix, smtcdns.net, direct
 host-suffix, apcdns.net, direct
