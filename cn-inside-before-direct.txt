@@ -1,8 +1,8 @@
-HOST-KEYWORD,alipay
-HOST-KEYWORD,tenpay
-HOST-SUFFIX,wechat.com
-HOST,g.alicdn.com
-HOST,gw.alicdn.com
-HOST,at.alicdn.com
-HOST,af.alicdn.com
-HOST,aeu.alicdn.com
+HOST-KEYWORD,alipay,Inside
+HOST-KEYWORD,tenpay,Inside
+HOST-SUFFIX,wechat.com,Inside
+HOST,g.alicdn.com,Inside
+HOST,gw.alicdn.com,Inside
+HOST,at.alicdn.com,Inside
+HOST,af.alicdn.com,Inside
+HOST,aeu.alicdn.com,Inside
