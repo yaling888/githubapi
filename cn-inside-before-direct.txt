@@ -7,7 +7,9 @@ HOST,at.alicdn.com,Inside
 HOST,af.alicdn.com,Inside
 HOST,aeu.alicdn.com,Inside
 
+# Tencent
 IP-CIDR,203.205.128.0/19,Inside
 IP-CIDR,203.205.160.0/21,Inside
 IP-CIDR,203.205.168.0/21,Inside
 IP-CIDR,203.205.176.0/20,Inside
+IP-CIDR,203.205.192.0/18,Inside
