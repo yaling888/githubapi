@@ -1,0 +1,14 @@
+^https?:\/\/tracert\.alipay\.com url reject-dict
+
+^https?:\/\/btrace\.qq\.com url reject-dict
+
+^https?:\/\/[\w-]*log\S*\.music\.163\.com url reject-dict
+
+^https?:\/\/open\.e\.189\.cn url reject-dict
+
+^https?:\/\/\S+\.analytics\.126\.net url reject-dict
+
+^https?:\/\/v\.monitor\.ws\.netease\.com url reject-dict
+
+# force redirect all http to https, exclude *.qq.com 
+^http:\/\/((?!.+\.qq\.com|.*cdn|.*cert|203\.205\.\d+\.\d+)[^/:]+)(:\d*)?(.*) url 307 https://$1$3
