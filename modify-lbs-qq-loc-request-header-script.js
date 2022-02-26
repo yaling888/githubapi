@@ -1,7 +1,12 @@
 let headers = $request.headers;
 headers['Accept'] = 'application/json;charset=UTF-8';
-delete headers['Connection'];
-delete headers['Accept-Encoding'];
+headers['Cookie'] = null;
+headers['Halley-Sequence'] = null;
+headers['Halley-IMEI'] = null;
+delete headers['Cookie'];
+delete headers['Halley-Sequence'];
+delete headers['Halley-IMEI'];
+
 
 console.log(JSON.stringify(headers));
 
