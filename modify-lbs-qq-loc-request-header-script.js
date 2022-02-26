@@ -6,6 +6,6 @@ delete headers['Cookie'];
 delete headers['Halley-Sequence'];
 delete headers['Halley-IMEI'];
 
-#console.log(JSON.stringify(headers));
+//console.log(JSON.stringify(headers));
 
 $done({headers: headers});
