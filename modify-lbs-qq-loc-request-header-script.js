@@ -1,13 +1,11 @@
 let headers = $request.headers;
-headers['Accept'] = 'application/json;charset=UTF-8';
-headers['Cookie'] = null;
-headers['Halley-Sequence'] = null;
-headers['Halley-IMEI'] = null;
+headers['Accept'] = 'application/json;charset=utf-8';
+headers['Content-Type'] = 'application/json;charset=utf-8';
+
 delete headers['Cookie'];
 delete headers['Halley-Sequence'];
 delete headers['Halley-IMEI'];
 
-
-console.log(JSON.stringify(headers));
+#console.log(JSON.stringify(headers));
 
 $done({headers: headers});
