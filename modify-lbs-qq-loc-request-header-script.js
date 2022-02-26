@@ -1,4 +1,4 @@
 
-console.log($request.headers);
+console.log(JSON.stringify($request.headers));
 
-$done();
+$done({});
