@@ -6,7 +6,7 @@ var modifiedHeaders = $request.headers;
 
 modifiedHeaders['Accept'] = 'application/json;charset=UTF-8';
 
-console.log(JSON.stringify(modifiedHeaders));
+#console.log(JSON.stringify(modifiedHeaders));
 
 $done({headers: modifiedHeaders});
 
