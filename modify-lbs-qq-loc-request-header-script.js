@@ -8,7 +8,7 @@ modifiedHeaders['Accept'] = 'application/json;charset=UTF-8';
 
 console.log(JSON.stringify(modifiedHeaders));
 
-#var modifiedPath = '/api2/abc?k=v';
-
-#$done({path: modifiedPath, headers : modifiedHeaders});
 $done({headers: modifiedHeaders});
+
+#var modifiedPath = '/api2/abc?k=v';
+#$done({path: modifiedPath, headers : modifiedHeaders});
