@@ -4,11 +4,11 @@ var modifiedHeaders = $request.headers;
 #delete modifiedHeaders['Halley-Sequence'];
 #delete modifiedHeaders['Halley-IMEI'];
 
-modifiedHeaders['Accept'] = 'application/json;charset=UTF-8';
+#modifiedHeaders['Accept'] = 'application/json;charset=UTF-8';
 
-#console.log(JSON.stringify(modifiedHeaders));
+console.log(JSON.stringify(modifiedHeaders));
 
-$done({headers: modifiedHeaders});
+$done();
 
 #var modifiedPath = '/api2/abc?k=v';
 #$done({path: modifiedPath, headers : modifiedHeaders});
