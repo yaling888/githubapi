@@ -11,4 +11,4 @@
 ^https?:\/\/v\.monitor\.ws\.netease\.com url reject-dict
 
 # force redirect all http to https, exclude *.qq.com 
-^http:\/\/((?!.+\.qq\.com|.+\.wechatpay\.cn|.*cdn|.*cert|203\.205\.\d+\.\d+)[^/:]+)(:\d*)?(.*) url 307 https://$1$3
+^http:\/\/((?!.+\.qq\.com|.+\.wechatpay\.cn|flv.*\.netease\.com|.*cdn|.*cert|203\.205\.\d+\.\d+)[^/:]+)(:\d*)?(.*) url 307 https://$1$3
