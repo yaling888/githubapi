@@ -1,6 +1,8 @@
 HOST-KEYWORD,alipay,Inside
 HOST-KEYWORD,tenpay,Inside
 HOST-SUFFIX,wechat.com,Inside
+HOST-SUFFIX,qq.com,Inside
+HOST-SUFFIX,wechatpay.cn,Inside
 HOST,g.alicdn.com,Inside
 HOST,gw.alicdn.com,Inside
 HOST,at.alicdn.com,Inside
